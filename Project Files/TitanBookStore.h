@@ -7,16 +7,10 @@ class TitanBookstore {
 private:
 	Item * _purchases;
 	int _current_index, numOfItems;
-
 	double sum_of_purchases(int);
-	void setPurchases() {};
 
 public:
-	
-	
 	Item * getPurchases();
-
-
 	TitanBookstore();
 	TitanBookstore(int numOfItems);
 	~TitanBookstore();
